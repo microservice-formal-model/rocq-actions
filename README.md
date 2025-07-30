@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/1029218943.svg)](https://doi.org/10.5281/zenodo.16619688)
 # rocq-actions
 This repository contains the Rocq formalization for theorem 4.1 of the chapter: "A Data-Centric Formal Model
 For Event-Based Transactions". The source code is located in the file `actions.v`, and the file is self-contained. No further dependencies are needed.
