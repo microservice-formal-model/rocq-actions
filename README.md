@@ -13,6 +13,6 @@ These assumptions are made to tailor the formalization to the information needed
 | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | Definition 4.2 (Actions).                                     | `Inductive action`.                                                                                                        |
 | Definition 4.4 (Event Signature Equality) $\leftrightarrow_s$. | `Definition eq_in_out`, `Notation =io=`.                                                                                   |
-| Definition 4.10 (Equivalence of Actions) $\leftrightarrow_a$. | `Definition act_equiv` `Notation <-->`.                                                                                    |
-| Definition 4.10 $\leftrightarrow_o$.                          | `Definition sig_out_eq,`Notation <-o->`.                                                                                   |
+| Definition 4.10 (Equivalence of Actions) $\leftrightarrow_a$. | `Definition act_equiv`, `Notation <-->`.                                                                                    |
+| Definition 4.10 $\leftrightarrow_o$.                          | `Definition sig_out_eq, `Notation <-o->`.                                                                                   |
 | Theorem 1.1 $\leftrightarrow_a$ is equivalence relation.      | (i) Reflexivity `Lemma act_equiv_refl` (ii) Symmetry `Theorem act_equiv_sym` (iii) Transitivity `Theorem act_equiv_trans`. |
