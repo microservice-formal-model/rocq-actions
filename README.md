@@ -7,6 +7,7 @@ The source code has been compiled and executed with Coq version 8.20.1 in CoqIDE
 #### Assumptions
 - Input actions in Rocq abstract away from variables and contain only the type of the variable
 - Output actions abstract away from variables and only contain concrete values of type boolean or nat.
+  
 These assumptions are made to tailor the formalization to the information needed for the proof in Theorem 4.1.  For the equivalence relation, only the types and the concrete values are necessary to formalize in Rocq. 
 #### Mapping
 | Chapter                                                       | Rocq                                                                                                                       |
